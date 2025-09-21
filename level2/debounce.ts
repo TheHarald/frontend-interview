@@ -1,14 +1,14 @@
 // Реализация функции debounce
 
 function debounce(fn, delay) {
+  return fn;
 }
-
 
 const debouncedFn = debounce(() => console.log('test'), 1000);
 
-debouncedFn()
-debouncedFn()
+debouncedFn();
+debouncedFn();
 setTimeout(() => {
-    debouncedFn()
-}, 100)
+  debouncedFn();
+}, 100);
 // test x1
