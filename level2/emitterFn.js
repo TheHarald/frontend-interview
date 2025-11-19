@@ -1,11 +1,16 @@
 function eventEmitter() {
+
+    function subscribe(eventName, callback) {
+        // Подписка на событие
+    }
+
+    function dispatch(eventName) {
+        // Вызов всех обработчиков события
+    }
+
     return {
-        subscribe(eventName, callback) {
-            // Подписка на событие
-        },
-        dispatch(eventName) {
-            // Вызов всех обработчиков события
-        }
+        subscribe,
+        dispatch
     }
 }
 
