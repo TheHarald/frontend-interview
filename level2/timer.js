@@ -1,10 +1,11 @@
 class Timer { }
 
 // Пример использования:
-const timer = new Timer(60); // 60 секунд
-
-timer.onTick = (seconds) => console.log(`Осталось: ${seconds} сек`);
-timer.onComplete = () => console.log('Время вышло!');
+const timer = new Timer({
+    duration: 60,
+    onTick: (seconds) => console.log(`Осталось: ${seconds} сек`),
+    onComplete: () => console.log('Время вышло!')
+});
 
 timer.start();
 
