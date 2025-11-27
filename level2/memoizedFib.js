@@ -6,4 +6,5 @@ function memoizedFibonacci() {
 }
 
 const fib = memoizedFibonacci();
-console.log(fib(50)); // Должно работать быстро
+console.log(fib(40)); // 102334155
+console.log(badFib(40)); // 102334155
