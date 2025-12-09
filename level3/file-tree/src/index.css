@@ -1,6 +1,5 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
 }
 .user {
   display: flex;
@@ -29,8 +28,4 @@
 .header {
   display: flex;
   justify-content: space-between;
-}
-
-body {
-  background: rgb(0, 0, 0);
 }
